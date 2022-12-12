@@ -7,6 +7,7 @@
 - The problem solved within the challenge was building a functioning Team Management roster with fields that could be input by the user with using node. Utilizing a "Node" response would be building it into a standard HTML webpage with CSS styles attached to it.
 - I learned how to build a functional app that utilized Node, .JSON, JS, HTML, and CSS.
 
+## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
