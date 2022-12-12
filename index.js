@@ -93,7 +93,6 @@ async function promptQuestions(questionType) {
   const answers = await inquirer.prompt(questions);
   
   if(answers.next === 'Engineer') {
-    // console.log(answers);
     selection = answers.next.toLowerCase();
     delete answers.next;
     
