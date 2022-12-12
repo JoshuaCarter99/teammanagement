@@ -48,29 +48,24 @@ function internTemplate(internInfo) {
 
 const generateHTML = function (data) {
 
-  // array for cards 
   pageArray = []; 
 
   for (let i = 0; i < data.length; i++) {
       const employee = data[i];
       const role = employee.getRole(); 
 
-
-      // call manager function
       if (role === 'Manager') {
           const managerCard = managerTemplate(employee);
 
           pageArray.push(managerCard);
       }
 
-      // call engineer function
       if (role === 'Engineer') {
           const engineerCard = engineerTemplate(employee);
 
           pageArray.push(engineerCard);
       }
 
-      // call intern function 
       if (role === 'Intern') {
           const internCard = internTemplate(employee);
 
@@ -79,10 +74,8 @@ const generateHTML = function (data) {
       
   }
 
-  // joining strings 
   const employeeCards = pageArray.join('')
 
-  // return to generated page
   const generateTeam = generateTeamPage(employeeCards); 
   return generateTeam;
 
