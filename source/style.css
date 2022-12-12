@@ -1,0 +1,29 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+.header{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: violet;
+    color:blueviolet;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.card {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+  }
+
+.container {
+    padding: 5px 30px;
+  }
